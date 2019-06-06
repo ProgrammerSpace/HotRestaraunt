@@ -81,6 +81,10 @@
             $.post("/api/newcustomer", newCharacter)
                 .then(function (data) {
                     console.log("add.html", data);
+                    $("#name").val("");
+                    $("#role").val("");
+                    $("#age").val("");
+                    $("#force-points").val("");
                     alert("Adding new Customer...");
                 });
         })
