@@ -38,7 +38,7 @@ app.get("/api/waitlist", function (req, res) {
     res.json(waitList);
 });
 
-app.post("/api/characters", function (req, res) {
+app.post("/api/customer", function (req, res) {
     var newCustomer = req.body;
 
     console.log(newCustomer);
