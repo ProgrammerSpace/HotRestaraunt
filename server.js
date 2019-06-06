@@ -49,7 +49,7 @@ app.post("/api/characters", function (req, res) {
         waitList.push(newCustomer);
     }
 
-    res.json(newcharacter);
+    res.json(newCustomer);
 });
 
 app.listen(PORT, function () {
