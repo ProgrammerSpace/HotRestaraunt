@@ -1,7 +1,7 @@
 {
-  "name": "16-HotRestaurant",
+  "name": "Images",
   "version": "1.0.0",
-  "description": "* Description: Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list. * Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>",
+  "description": "",
   "main": "home.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "path": "^0.12.7"
   }
 }
