@@ -38,6 +38,12 @@ app.get("/api/waitlist", function (req, res) {
     res.json(waitList);
 });
 
+app.get("/api/clear", function (req, res) {
+    reservations = [];
+    waitList = [];
+    res.sendFile(path.join(__dirname, "view.html"));
+});
+
 app.post("/api/newcustomer", function (req, res) {
     var newCustomer = req.body;
 
