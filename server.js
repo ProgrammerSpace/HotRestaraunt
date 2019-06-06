@@ -27,7 +27,7 @@ app.get("/view", function (req, res) {
 });
 
 app.get("/reserve", function (req, res) {
-    res.sendFile(path.join(__dirname, "reserve.html.html"));
+    res.sendFile(path.join(__dirname, "reserve.html"));
 });
 
 app.get("/api/reservations", function (req, res) {

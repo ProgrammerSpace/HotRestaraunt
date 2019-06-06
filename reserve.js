@@ -8,7 +8,7 @@ $(document).on("click", "#submit", function () {
     };
 
     // Question: What does this code do??
-    $.post("/api/characters", newCharacter)
+    $.post("/api/newcustomer", newCharacter)
         .then(function (data) {
             console.log("add.html", data);
             alert("Adding character...");
